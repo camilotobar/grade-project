@@ -1,0 +1,109 @@
+E:\Users\Deployment\Documents\cAlgo\Sources\Robots\TauroEventNotifier\TauroEventNotifier>dotnet run Program.cs
+E:\Users\Deployment\Documents\cAlgo\Sources\Robots\TauroEventNotifier\TauroEventNotifier\TauroEventNotifier.csproj : warning NU1701: Package 'Socket 2.1.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.2'. This package may not be fully compatible with your project.
+E:\Users\Deployment\Documents\cAlgo\Sources\Robots\TauroEventNotifier\TauroEventNotifier\TauroEventNotifier.csproj : warning NU1701: Package 'Socket 2.1.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.2'. This package may not be fully compatible with your project.
+C:\Program Files\dotnet\sdk\2.2.106\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3277: Found conflicts between different versions of "Newtonsoft.Json" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed. [E:\Users\Deployment\Documents\cAlgo\Sources\Robots\TauroEventNotifier\TauroEventNotifier\TauroEventNotifier.csproj]
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Deployment\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: E:\Users\Deployment\Documents\cAlgo\Sources\Robots\TauroEventNotifier\TauroEventNotifier
+Now listening on: https://localhost:7001
+Now listening on: http://localhost:7000
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:7001/api/Subscription
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroEventNotifier.Controllers.SubscriptionController.Index (TauroEventNotifier)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Index", controller = "Subscription"}. Executing action TauroEventNotifier.Controllers.SubscriptionController.Index (TauroEventNotifier)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroEventNotifier.Controllers.SubscriptionController.Index (TauroEventNotifier) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroEventNotifier.Controllers.SubscriptionController.Index (TauroEventNotifier), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0881ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroEventNotifier.Controllers.SubscriptionController.Index (TauroEventNotifier) in 15.7986ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroEventNotifier.Controllers.SubscriptionController.Index (TauroEventNotifier)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 46.987ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST https://localhost:7001/api/Subscription/NewStrategy?StrategyName=BearishDoji&TimeFrame=Minute5&Port=17001 application/json 0
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Subscription"}. Executing action TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier) with arguments (BearishDoji, Minute5, 17001) - Validation state: Valid
+warn: TauroEventNotifier.Controllers.SubscriptionController[0]
+      05/21/2019 08:26:47       New Strategy subscribed: BearishDoji on port 17001
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.7754ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier) in 8.8543ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 18.9344ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST https://localhost:7001/api/Subscription/NewStrategy?StrategyName=BullishDoji&TimeFrame=Minute5&Port=18001 application/json 0
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Subscription"}. Executing action TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier) with arguments (BullishDoji, Minute5, 18001) - Validation state: Valid
+warn: TauroEventNotifier.Controllers.SubscriptionController[0]
+      05/21/2019 08:26:49       New Strategy subscribed: BullishDoji on port 18001
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0229ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier) in 0.3101ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.4779ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST https://localhost:7001/api/Subscription/NewStrategy?StrategyName=ThreeBlackSoldiers&TimeFrame=Minute5&Port=19001 application/json 0
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Subscription"}. Executing action TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier) with arguments (ThreeBlackSoldiers, Minute5, 19001) - Validation state: Valid
+warn: TauroEventNotifier.Controllers.SubscriptionController[0]
+      05/21/2019 08:26:51       New Strategy subscribed: ThreeBlackSoldiers on port 19001
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0144ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier) in 0.1771ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.2947ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST https://localhost:7001/api/Subscription/NewStrategy?StrategyName=ThreeWhiteSoldiers&TimeFrame=Minute5&Port=20001 application/json 0
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Subscription"}. Executing action TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier) with arguments (ThreeWhiteSoldiers, Minute5, 20001) - Validation state: Valid
+warn: TauroEventNotifier.Controllers.SubscriptionController[0]
+      05/21/2019 08:26:53       New Strategy subscribed: ThreeWhiteSoldiers on port 20001
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0144ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier) in 0.1643ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroEventNotifier.Controllers.SubscriptionController.NotifyNewStrategy (TauroEventNotifier)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.2758ms 200 text/plain; charset=utf-8
