@@ -1,0 +1,577 @@
+E:\Users\Deployment\Documents\cAlgo\Sources\Robots\TauroPortfolioController\TauroPortfolioController>dotnet run Program.cs
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Deployment\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: E:\Users\Deployment\Documents\cAlgo\Sources\Robots\TauroPortfolioController\TauroPortfolioController
+Now listening on: https://localhost:8001
+Now listening on: http://localhost:8000
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:8001/api/Monitor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroPortfolioController.Controllers.MonitorController.Index (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Index", controller = "Monitor"}. Executing action TauroPortfolioController.Controllers.MonitorController.Index (TauroPortfolioController)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroPortfolioController.Controllers.MonitorController.Index (TauroPortfolioController) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroPortfolioController.Controllers.MonitorController.Index (TauroPortfolioController), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1043ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroPortfolioController.Controllers.MonitorController.Index (TauroPortfolioController) in 409.5503ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroPortfolioController.Controllers.MonitorController.Index (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 442.2862ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:8001/api/Monitor/NewStrategy?StrategyName=BearishDoji&AssetCode=EURUSD&Port=17001
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Monitor"}. Executing action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) with arguments (BearishDoji, EURUSD, 17001) - Validation state: Valid
+warn: TauroPortfolioController.Controllers.MonitorController[0]
+      05/28/2019 03:24:54       New Strategy: BearishDoji over EURUSD asset, on 17001 port
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/28/2019 03:24:54       Setting initial parameters to strategy
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.4711ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) in 16.92ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 29.3221ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:8001/api/Monitor/NewStrategy?StrategyName=BullishDoji&AssetCode=USDCAD&Port=18001
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Monitor"}. Executing action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) with arguments (BullishDoji, USDCAD, 18001) - Validation state: Valid
+warn: TauroPortfolioController.Controllers.MonitorController[0]
+      05/28/2019 03:25:17       New Strategy: BullishDoji over USDCAD asset, on 18001 port
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/28/2019 03:25:17       Setting initial parameters to strategy
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.6757ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) in 8.0255ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 8.9954ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:8001/api/Monitor/NewStrategy?StrategyName=ThreeBlackSoldiers&AssetCode=AUDUSD&Port=19001
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Monitor"}. Executing action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) with arguments (ThreeBlackSoldiers, AUDUSD, 19001) - Validation state: Valid
+warn: TauroPortfolioController.Controllers.MonitorController[0]
+      05/28/2019 03:25:23       New Strategy: ThreeBlackSoldiers over AUDUSD asset, on 19001 port
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/28/2019 03:25:23       Setting initial parameters to strategy
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.775ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) in 8.0614ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 8.2264ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:8001/api/Monitor/NewStrategy?StrategyName=ThreeWhiteSoldiers&AssetCode=GBPUSD&Port=20001
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Monitor"}. Executing action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) with arguments (ThreeWhiteSoldiers, GBPUSD, 20001) - Validation state: Valid
+warn: TauroPortfolioController.Controllers.MonitorController[0]
+      05/28/2019 03:25:30       New Strategy: ThreeWhiteSoldiers over GBPUSD asset, on 20001 port
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/28/2019 03:25:30       Setting initial parameters to strategy
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.816ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) in 8.1209ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 8.2776ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:8001/api/Monitor/NewStrategy?StrategyName=MorningStarBearish&AssetCode=AUDUSD&Port=21001
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Monitor"}. Executing action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) with arguments (MorningStarBearish, AUDUSD, 21001) - Validation state: Valid
+warn: TauroPortfolioController.Controllers.MonitorController[0]
+      05/28/2019 03:33:17       New Strategy: MorningStarBearish over AUDUSD asset, on 21001 port
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/28/2019 03:33:17       Setting initial parameters to strategy
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 10.3227ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) in 10.6431ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 10.8391ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:8001/api/Monitor/NewStrategy?StrategyName=MorningStarBullish&AssetCode=AUDUSD&Port=22001
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Monitor"}. Executing action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) with arguments (MorningStarBullish, AUDUSD, 22001) - Validation state: Valid
+warn: TauroPortfolioController.Controllers.MonitorController[0]
+      05/28/2019 03:33:36       New Strategy: MorningStarBullish over AUDUSD asset, on 22001 port
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/28/2019 03:33:36       Setting initial parameters to strategy
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.9872ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) in 8.1881ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 8.3483ms 200 text/plain; charset=utf-8
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 04:23:31       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 05:23:31       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 06:23:31       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/28/2019 06:23:32       Some strategies stopped by fundamental volatility
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 07:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 08:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 09:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 10:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 11:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 12:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 13:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 14:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 15:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/28/2019 15:23:37       Some strategies stopped by fundamental volatility
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 16:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/28/2019 16:23:38       Some strategies stopped by fundamental volatility
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 17:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/28/2019 17:23:38       Some strategies stopped by fundamental volatility
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 18:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 19:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 20:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 21:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 22:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/28/2019 23:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 00:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 00:23:34       Monitoring strategies performances, to reparametrize them
+warn: TauroPortfolioController.AnalyserModule.Analyser[0]
+      05/29/2019 00:23:34       Fitness for BearishDoji: 0.01
+warn: TauroPortfolioController.AnalyserModule.Analyser[0]
+      05/29/2019 00:23:34       Fitness for BullishDoji: 0.01
+warn: TauroPortfolioController.AnalyserModule.Analyser[0]
+      05/29/2019 00:23:34       Fitness for ThreeBlackSoldiers: 0.01
+warn: TauroPortfolioController.AnalyserModule.Analyser[0]
+      05/29/2019 00:23:34       Fitness for ThreeWhiteSoldiers: 0.01     
+warn: TauroPortfolioController.AnalyserModule.Analyser[0]
+      05/29/2019 00:23:34       Fitness for MorningStarBearish: 0.01
+warn: TauroPortfolioController.AnalyserModule.Analyser[0]
+      05/29/2019 00:23:34       Fitness for MorningStarBullish: 0.01                   
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/29/2019 00:23:38       Some strategies stopped by fundamental volatility
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 01:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:8001/api/Monitor/NewStrategy?StrategyName=Pattern_A&AssetCode=EURUSD&Port=23001
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Monitor"}. Executing action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) with arguments (Pattern_A, EURUSD, 23001) - Validation state: Valid
+warn: TauroPortfolioController.Controllers.MonitorController[0]
+      05/29/2019 02:20:05       New Strategy: Pattern_A over EURUSD asset, on 23001 port
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/29/2019 02:20:05       Setting initial parameters to strategy
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 14.3403ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) in 14.9485ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 15.2274ms 200 text/plain; charset=utf-8
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 02:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:8001/api/Monitor/NewStrategy?StrategyName=Pattern_B&AssetCode=USDJPY&Port=24001
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:8001/api/Monitor/NewStrategy?StrategyName=Pattern_B&AssetCode=USDJPY&Port=24001
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Monitor"}. Executing action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Monitor"}. Executing action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) with arguments (Pattern_B, USDJPY, 24001) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) with arguments (Pattern_B, USDJPY, 24001) - Validation state: Valid
+warn: TauroPortfolioController.Controllers.MonitorController[0]
+      05/29/2019 02:35:34       New Strategy: Pattern_B over USDJPY asset, on 24001 port
+warn: TauroPortfolioController.Controllers.MonitorController[0]
+      05/29/2019 02:35:34       New Strategy: Pattern_B over USDJPY asset, on 24001 port
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/29/2019 02:35:34       Setting initial parameters to strategy
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/29/2019 02:35:34       Setting initial parameters to strategy
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) in 0.8593ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.9571ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) in 7.2933ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 7.5108ms 200 text/plain; charset=utf-8
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 106.9053ms 500 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:8001/api/Monitor/NewStrategy?StrategyName=Pattern_B&AssetCode=USDJPY&Port=24001
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Monitor"}. Executing action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) with arguments (Pattern_B, USDJPY, 24001) - Validation state: Valid
+warn: TauroPortfolioController.Controllers.MonitorController[0]
+      05/29/2019 02:35:35       New Strategy: Pattern_B over USDJPY asset, on 24001 port
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0168ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) in 0.2563ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.4219ms 200 text/plain; charset=utf-8
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 03:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 04:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 05:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 06:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/29/2019 06:23:36       Some strategies stopped by fundamental volatility
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:8001/api/Monitor/NewStrategy?StrategyName=Pattern_C&AssetCode=EURUSD&Port=25001
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Monitor"}. Executing action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) with arguments (Pattern_C, EURUSD, 25001) - Validation state: Valid
+warn: TauroPortfolioController.Controllers.MonitorController[0]
+      05/29/2019 06:39:03       New Strategy: Pattern_C over EURUSD asset, on 25001 port
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/29/2019 06:39:03       Setting initial parameters to strategy
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.5607ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) in 5.8987ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 6.0815ms 200 text/plain; charset=utf-8
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 07:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 08:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 09:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 10:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 11:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:8001/api/Monitor/NewStrategy?StrategyName=Pattern_D&AssetCode=EURUSD&Port=25001
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Monitor"}. Executing action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) with arguments (Pattern_D, EURUSD, 25001) - Validation state: Valid
+warn: TauroPortfolioController.Controllers.MonitorController[0]
+      05/29/2019 11:46:39       New Strategy: Pattern_D over EURUSD asset, on 25001 port
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/29/2019 11:46:39       Setting initial parameters to strategy
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.9045ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) in 7.2273ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 7.4001ms 200 text/plain; charset=utf-8
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 12:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 13:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 14:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 15:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 16:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 17:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 18:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 19:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 20:23:34       Monitoring economic calendar and Swiset's Side Volatility Index
+Application is shutting down...
+^C
+E:\Users\Deployment\Documents\cAlgo\Sources\Robots\TauroPortfolioController\TauroPortfolioController>
+
+
+
+
+
+
+E:\Users\Deployment\Documents\cAlgo\Sources\Robots\TauroPortfolioController\TauroPortfolioController>dotnet run Program.cs
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Deployment\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: E:\Users\Deployment\Documents\cAlgo\Sources\Robots\TauroPortfolioController\TauroPortfolioController
+Now listening on: https://localhost:8001
+Now listening on: http://localhost:8000
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:8001/api/Monitor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroPortfolioController.Controllers.MonitorController.Index (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Index", controller = "Monitor"}. Executing action TauroPortfolioController.Controllers.MonitorController.Index (TauroPortfolioController)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroPortfolioController.Controllers.MonitorController.Index (TauroPortfolioController) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroPortfolioController.Controllers.MonitorController.Index (TauroPortfolioController), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0896ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroPortfolioController.Controllers.MonitorController.Index (TauroPortfolioController) in 190.5279ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroPortfolioController.Controllers.MonitorController.Index (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 223.3846ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:8001/api/Monitor/NewStrategy?StrategyName=BearishDoji&AssetCode=EURUSD&Port=17001
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Monitor"}. Executing action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) with arguments (BearishDoji, EURUSD, 17001) - Validation state: Valid
+warn: TauroPortfolioController.Controllers.MonitorController[0]
+      05/29/2019 21:22:03       New Strategy: BearishDoji over EURUSD asset, on 17001 port
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/29/2019 21:22:03       Setting initial parameters to strategy
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 12.1493ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) in 30.3191ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 40.87ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:8001/api/Monitor/NewStrategy?StrategyName=Pattern_A&AssetCode=EURUSD&Port=23001
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Monitor"}. Executing action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) with arguments (Pattern_A, EURUSD, 23001) - Validation state: Valid
+warn: TauroPortfolioController.Controllers.MonitorController[0]
+      05/29/2019 21:23:17       New Strategy: Pattern_A over EURUSD asset, on 23001 port
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/29/2019 21:23:17       Setting initial parameters to strategy
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.0836ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) in 8.5254ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 9.4804ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:8001/api/Monitor/NewStrategy?StrategyName=Pattern_B&AssetCode=USDJPY&Port=24001
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyNewStrategy", controller = "Monitor"}. Executing action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) with arguments (Pattern_B, USDJPY, 24001) - Validation state: Valid
+warn: TauroPortfolioController.Controllers.MonitorController[0]
+      05/29/2019 21:24:39       New Strategy: Pattern_B over USDJPY asset, on 24001 port
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/29/2019 21:24:39       Setting initial parameters to strategy
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.6078ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController) in 8.8785ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TauroPortfolioController.Controllers.MonitorController.NotifyNewStrategy (TauroPortfolioController)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 9.0498ms 200 text/plain; charset=utf-8
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 22:20:56       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/29/2019 23:20:56       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 00:20:56       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 00:20:56       Monitoring strategies performances, to reparametrize them
+warn: TauroPortfolioController.AnalyserModule.Analyser[0]
+      05/30/2019 00:20:56       Fitness for BearishDoji: 0.01
+warn: TauroPortfolioController.AnalyserModule.Analyser[0]
+      05/30/2019 00:20:56       Fitness for Pattern_A: 0.006347314
+warn: TauroPortfolioController.AnalyserModule.Analyser[0]
+      05/30/2019 00:20:56       Fitness for Pattern_B: 0.000465468
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 01:20:56       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 02:20:56       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 03:20:56       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 04:20:56       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 05:20:56       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/30/2019 05:20:57       Some strategies stopped by fundamental volatility
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 06:20:56       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 07:20:56       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 08:20:56       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 09:20:56       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 10:20:56       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 11:20:59       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 12:20:59       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 13:20:59       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 14:20:59       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 15:20:59       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 16:20:59       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/30/2019 16:21:01       Some strategies stopped by fundamental volatility
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 17:20:59       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.ExecutorModule.Executor[0]
+      05/30/2019 17:21:01       Some strategies stopped by fundamental volatility
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 18:20:59       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 19:20:59       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 20:20:59       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 21:20:59       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 22:20:59       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/30/2019 23:20:59       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/31/2019 00:20:59       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/31/2019 00:20:59       Monitoring strategies performances, to reparametrize them
+warn: TauroPortfolioController.AnalyserModule.Analyser[0]
+      05/31/2019 00:20:59       Fitness for BearishDoji: 0.006331793
+warn: TauroPortfolioController.AnalyserModule.Analyser[0]
+      05/31/2019 00:20:59       Fitness for Pattern_A: 0.0017984358
+warn: TauroPortfolioController.AnalyserModule.Analyser[0]
+      05/31/2019 00:20:59       Fitness for Pattern_B: 0.023843447
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/31/2019 01:20:59       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/31/2019 02:20:59       Monitoring economic calendar and Swiset's Side Volatility Index
+warn: TauroPortfolioController.MonitorModule.Monitor[0]
+      05/31/2019 03:20:59       Monitoring economic calendar and Swiset's Side Volatility Index
