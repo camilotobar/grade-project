@@ -19,3 +19,4 @@ Trading subscription and scheduler component.<br>
 
 ## Statements
 Trading account statements.
+There are 3 statements for 3 trading moments of the account.
