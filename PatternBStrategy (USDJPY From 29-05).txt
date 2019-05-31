@@ -1,0 +1,1363 @@
+E:\Users\Deployment\Documents\cAlgo\Sources\Robots\RandomBStrategy\TauroStrategy>dotnet run Program.cs
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Deployment\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: E:\Users\Deployment\Documents\cAlgo\Sources\Robots\RandomBStrategy\TauroStrategy
+Now listening on: https://localhost:24001
+Now listening on: http://localhost:24000
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Index", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.Index (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.Index (TauroStrategy) in 83404.413ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 83546.3765ms 500 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/AdjustParameters?NewBalance=1250&NewMaxDailyDrawdown=125
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "AdjustParameters", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy) with arguments (1250, 125) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 02:35:35       Parameters adjusted: New Balance 1250, New MaxDD 125
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.6586ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Net.Http.HttpResponseMessage'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy) in 103.5506ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 112.5905ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 03:00:17       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.1032ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 4.352ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 6.6803ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 03:01:09       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0188ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1228ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.3233ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 04:01:02       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0405ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.3672ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.67ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 05:00:58       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0235ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1763ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.3375ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 05:01:58       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0184ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.149ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.2811ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 06:00:58       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0232ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.178ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.3619ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 06:01:58       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0241ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1415ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.2867ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/AdjustParameters?NewBalance=1111.11111111111&NewMaxDailyDrawdown=111.111111111111
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "AdjustParameters", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy) with arguments (1111.11111111111, 111.111111111111) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 06:39:04       Parameters adjusted: New Balance 1111.11111111111, New MaxDD 111.111111111111
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0266ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Net.Http.HttpResponseMessage'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy) in 0.6846ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.8836ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 07:00:59       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0239ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1792ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.3447ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 07:01:58       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 21520.2121ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 21520.3418ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 21520.4906ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 08:00:58       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0237ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.2056ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.3676ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 08:01:58       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7451.203ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 7451.4412ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 7451.7325ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 09:00:58       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0172ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1645ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.2925ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 09:01:58       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0414ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.2646ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.5715ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 10:00:58       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0261ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.194ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.4078ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 10:01:58       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0224ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1734ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.3017ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 11:00:00       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0167ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1313ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.253ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 11:01:01       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0285ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1686ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.3959ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 11:01:58       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 19786.2326ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 19786.5183ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 19786.7314ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/AdjustParameters?NewBalance=999.66&NewMaxDailyDrawdown=99.966
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "AdjustParameters", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy) with arguments (999.66, 99.966) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 11:46:41       Parameters adjusted: New Balance 999.66, New MaxDD 99.966
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0297ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Net.Http.HttpResponseMessage'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy) in 0.57ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.7887ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 12:01:06       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0332ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.2509ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.4754ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 12:01:59       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0243ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1553ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.3094ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 13:01:01       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0406ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.342ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.6079ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 13:01:59       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0322ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1849ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.8082ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 14:00:58       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0245ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.2529ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.4471ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 15:00:58       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0244ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1503ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.2921ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 16:00:01       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.023ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1971ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.3515ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 16:01:03       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0383ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.2157ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.4533ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 17:00:58       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0248ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1925ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.3587ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 17:01:58       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.026ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1444ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.2956ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 18:01:13       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 17603.2429ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 17603.5976ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 17603.9114ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 19:00:58       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2281.7742ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 2282.0098ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2282.1953ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 20:00:57       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0234ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.2065ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.3667ms 200 text/plain; charset=utf-8
+Application is shutting down...
+^C
+E:\Users\Deployment\Documents\cAlgo\Sources\Robots\RandomBStrategy\TauroStrategy>
+
+
+
+
+
+
+E:\Users\Deployment\Documents\cAlgo\Sources\Robots\RandomBStrategy\TauroStrategy>dotnet run Program.cs
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Deployment\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: E:\Users\Deployment\Documents\cAlgo\Sources\Robots\RandomBStrategy\TauroStrategy
+Now listening on: https://localhost:24001
+Now listening on: http://localhost:24000
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Index", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.Index (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.Index (TauroStrategy) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.Index (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.57ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.Index (TauroStrategy) in 234.1632ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 305.9937ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/favicon.ico
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.8999ms 404
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/AdjustParameters?NewBalance=3331.55333333333&NewMaxDailyDrawdown=333.155333333333
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "AdjustParameters", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy) with arguments (3331.55333333333, 333.155333333333) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 21:24:40       Parameters adjusted: New Balance 3331.55333333333, New MaxDD 333.155333333333
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.7145ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Net.Http.HttpResponseMessage'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy) in 68.286ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 77.7105ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 22:01:47       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1046.5201ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 1046.8073ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1048.4374ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 22:01:57       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 488.9868ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 489.2103ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 489.5643ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 23:01:08       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1183.6471ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 1183.9802ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1184.2253ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/29/2019 23:01:57       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0314ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1412ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.2957ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 00:00:57       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2405.7899ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 2406.0155ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2406.1852ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/GetPerformance
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "GetPerformance", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.GetPerformance (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.GetPerformance (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 00:20:56       Performance requested
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.GetPerformance (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.7754ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.GetPerformance (TauroStrategy) in 4.9542ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.9369ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/AdjustParameters?NewBalance=276.659295&NewMaxDailyDrawdown=27.665929
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "AdjustParameters", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy) with arguments (276.659295, 27.665929) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 00:20:56       Parameters adjusted: New Balance 276.659295, New MaxDD 27.665929
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0165ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Net.Http.HttpResponseMessage'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy) in 0.4624ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.5577ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 01:00:56       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3635.4559ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 3635.6856ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3635.9544ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 02:00:58       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0408ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.2816ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.5404ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 03:01:00       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4702.2516ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 4702.6081ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4702.9053ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 04:01:12       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0478ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.2904ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.5457ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 04:01:57       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0329ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1872ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.4154ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 05:00:56       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4759.9009ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 4760.5878ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4761.0422ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 06:00:57       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0414ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.3251ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.5734ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 06:01:56       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3741.7638ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 3742.0015ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3742.2217ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 07:01:00       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0519ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.4107ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.684ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 07:01:56       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0183ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1006ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.224ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 08:00:56       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4971.7586ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 4971.9635ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4972.1452ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 08:01:57       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 540.7974ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 541.063ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 541.2703ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 09:01:01       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0279ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1817ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.3372ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 09:01:57       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0307ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1577ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.3337ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 10:01:29       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.041ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.3103ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.5689ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 11:01:41       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.077ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.4952ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.8562ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 12:01:49       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 558.5825ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 558.7594ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 558.9587ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 13:01:43       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 487.3167ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 487.6404ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 487.8908ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 14:01:01       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0266ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1905ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.3978ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 15:01:09       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0174ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.1478ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.265ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 16:01:43       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0377ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.3248ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.5317ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/StopOpening
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "StopOpening", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.StopOpening (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.StopOpening (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 16:21:01       Strategy stopped by Fundamental Volatility
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.StopOpening (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.4616ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.StopOpening (TauroStrategy) in 0.6063ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.7371ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 17:01:40       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0588ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 0.4233ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.7816ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/StopOpening
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "StopOpening", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.StopOpening (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.StopOpening (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 17:21:01       Strategy stopped by Fundamental Volatility
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.StopOpening (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0389ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.StopOpening (TauroStrategy) in 0.1667ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.3066ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 18:01:03       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 542.3174ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 542.572ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 542.7598ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 19:01:40       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1658.5351ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 1658.7916ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1659.0168ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 20:01:41       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1937.3117ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 1937.5174ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1937.7419ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 20:01:59       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 550.526ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 550.8034ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 551.136ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 21:01:42       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 573.2211ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 573.448ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 573.623ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 22:01:42       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 591.5014ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 591.8532ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 592.0591ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 22:01:59       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 611.2811ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 611.4692ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 611.6702ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 23:01:03       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 537.8304ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 538.1168ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 538.3449ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/30/2019 23:02:00       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 611.5455ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 611.7685ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 611.9798ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/31/2019 00:01:04       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1763.7313ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 1763.9409ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1764.196ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/31/2019 00:01:59       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 609.1017ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 609.316ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 609.5346ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/GetPerformance
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "GetPerformance", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.GetPerformance (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.GetPerformance (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/31/2019 00:20:59       Performance requested
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.GetPerformance (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.8213ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.GetPerformance (TauroStrategy) in 4.9905ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.9341ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/AdjustParameters?NewBalance=7453.040683&NewMaxDailyDrawdown=745.304068
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "AdjustParameters", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy) with arguments (7453.040683, 745.304068) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/31/2019 00:20:59       Parameters adjusted: New Balance 7453.040683, New MaxDD 745.304068
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0189ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Net.Http.HttpResponseMessage'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.AdjustParameters (TauroStrategy) in 0.246ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.3776ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/31/2019 01:01:03       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 547.4738ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 547.7052ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 547.8877ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/31/2019 01:01:59       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 588.7646ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 588.999ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 589.1876ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:24001/api/Central/OnBar
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "NotifyOnBar", controller = "Central"}. Executing action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) - Validation state: Valid
+warn: TauroStrategy.Controllers.CentralController[0]
+      05/31/2019 03:01:06       OnBar notified
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4833.0507ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TauroStrategy.Controllers.CentralController.NotifyOnBar (TauroStrategy) in 4833.3127ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4833.5099ms 200 text/plain; charset=utf-8
