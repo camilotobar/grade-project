@@ -1,5 +1,5 @@
-# Grade Project
-Logs and files for the grade project.<br>
+# Final Grade Project
+Logs and files for the final grade project.<br>
 **Project Name:** A Self-Adaptive Controller Prototype for Automated Trading Systems.<br>
 **Students:** Andrés Felipe Borrero y Juan Camilo Tobar.<br>
 **University:** Universidad Icesi.<br>
