@@ -17,7 +17,7 @@ Controller component of the Self-Adaptive System.<br>
 
 ### Asynchronous Server Connection Provider
 Financial context component of the Self-Adaptive System.<br>
-For the AsynchServer logs, the pattern is:<br> 
+For the AsynchServer logs, the **pattern** is:<br> 
 {DATE dd/MM/YYYY HH:MM:SS.MLS | Request received: {MESSAGE}
 
 ### Strategies
@@ -28,5 +28,6 @@ Trading subscription and scheduler component.<br>
 
 ## Statements
 Trading account statements.
-There are 3 statements for 3 trading moments of the account.<br>
+There are 3 HTML statements and 2 PDF statements for 3 trading moments of the account.<br>
+<br>
 On the statements are overall performance data that summarizes the account trades, such as Direction (Buy/Sell), Closing Time, Balance, Pips, Volume and Quantity.
