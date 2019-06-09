@@ -30,4 +30,4 @@ Trading subscription and scheduler component.<br>
 Trading account statements.
 There are 3 HTML statements and 2 PDF statements for 3 trading moments of the account.<br>
 <br>
-On the statements are overall performance data that summarizes the account trades, such as Direction (Buy/Sell), Closing Time, Balance, Pips, Volume and Quantity.
+In Statements you can find overall performance data that summarizes the account trades, such as Direction (Buy/Sell), Closing Time, Balance, Pips, Volume and Quantity.
